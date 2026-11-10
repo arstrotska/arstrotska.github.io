@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="boxicons:arrow-up-stroke">
+<g id="Vector">
+<path d="M13 18V9.91L16.29 13.21L17.71 11.79L12 6.09L6.29 11.79L7.71 13.21L11 9.91V18H13Z" fill="black"/>
+<mask id="stroke0_0_7" fill="white">
+<path d="M13 18V9.91L16.29 13.21L17.71 11.79L12 6.09L6.29 11.79L7.71 13.21L11 9.91V18H13Z"/>
+</mask>
+<path d="M13 18V9.91L16.29 13.21L17.71 11.79L12 6.09L6.29 11.79L7.71 13.21L11 9.91V18H13Z" stroke-width="2" stroke="#1F1F1F" mask="url(#stroke0_0_7)"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#f3f3f3" />
+    <meta name="description" content="Александр Лапицкий — UX/UI и Product Designer. Избранные проекты и опыт работы." />
+    <title>Александр Лапицкий — Product Designer</title>
+    <script>
+      (() => {
+        // Keep the desktop layout scale stable across browser chrome, display
+        // scaling, window modes and navigation. Only the viewport affects it.
+        const updateLayoutScale = () => {
+          const viewport = window.innerWidth;
+          const blend = Math.max(0, Math.min(1, (viewport - 900) / 300));
+          const scale = 1 - 0.2 * blend;
+
+          document.documentElement.style.setProperty('--portfolio-scale', scale.toFixed(4));
+        };
+
+        updateLayoutScale();
+        document.addEventListener('DOMContentLoaded', updateLayoutScale, { once: true });
+        window.addEventListener('load', updateLayoutScale, { once: true });
+        window.addEventListener('resize', updateLayoutScale, { passive: true });
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-RViu0SHb.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C47Vr7KU.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
