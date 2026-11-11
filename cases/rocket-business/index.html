@@ -14,8 +14,9 @@
         // scaling, window modes and navigation. Only the viewport affects it.
         const updateLayoutScale = () => {
           const viewport = window.innerWidth;
-          const blend = Math.max(0, Math.min(1, (viewport - 900) / 300));
-          const scale = 1 - 0.2 * blend;
+          const scale = viewport >= 390 && viewport <= 480
+            ? viewport / 390
+            : 1 - 0.2 * Math.max(0, Math.min(1, (viewport - 900) / 300));
 
           document.documentElement.style.setProperty('--portfolio-scale', scale.toFixed(4));
         };
@@ -26,8 +27,8 @@
         window.addEventListener('resize', updateLayoutScale, { passive: true });
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-RViu0SHb.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C47Vr7KU.css">
+    <script type="module" crossorigin src="/assets/index-DYhO-69s.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-qMlfrM4W.css">
   </head>
   <body>
     <div id="root"></div>
